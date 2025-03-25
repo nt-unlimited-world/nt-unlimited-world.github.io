@@ -147,7 +147,7 @@ main p{
 }
 
 
-@media(max-width: 2640px){
+@media(max-width: 800px){
     body{
         grid-template-columns: 1fr;
     }
