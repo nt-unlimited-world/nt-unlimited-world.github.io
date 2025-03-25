@@ -1,0 +1,9 @@
+# 站点设置
+title: 无限流设定
+description: 无限流设定网站
+url: "https://nt-unlimited-world.github.io" # 替换为你的 GitHub Pages URL
+baseurl: "/nt-unlimited-world" # 如果你的仓库名称不是 username.github.io，则需要设置基础路径
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
