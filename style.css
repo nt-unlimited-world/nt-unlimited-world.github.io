@@ -136,8 +136,14 @@ main p{
     margin-bottom: 20px;
     padding: min(3em, 15%);
 
-    h2, p { margin-top: 1em; }
-    p ul li{margin-left: 1em; list-style: none;}
+    h2 { margin-top: 3em; }
+    h3 { margin-top: 2em; }
+    h4 { margin-top: 1em; }
+    h5 { margin-top: 1em; }
+    p { margin-top: 1em; }
+    li {
+        margin: 0.5em 2em;
+    }
 }
 
 

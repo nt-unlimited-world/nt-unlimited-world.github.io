@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="../app.js" defer></script>
+</head>
+<body>
+    <nav id="sidebar">
+        <ul>
+            <li>
+                <span class="logo">无限流设定</span>
+                <button onclick="toggleSidebar()" id="toggle-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"/></svg>
+                </button>
+            </li>
+            <li>
+                <button onclick="toggleSubMenu(this)" class="dropdown-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Zm-20 200h80v-400H380v80h80v320Z"/></svg>
+                    <span>第一世界</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+                </button>
+                <ul class="sub-menu">
+                    <div>
+                        <li><a href="../world1/1.1.xunyu.html">郇煜</a></li>
+                        <li><a href="../world1/1.2.baidu.html">白渎</a></li>
+                        <li><a href="../world1/1.3.suwu.html">宿雾/沐阳</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <button onclick="toggleSubMenu(this)" class="dropdown-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320ZM360-280h240v-80H440v-80h80q33 0 56.5-23.5T600-520v-80q0-33-23.5-56.5T520-680H360v80h160v80h-80q-33 0-56.5 23.5T360-440v160Z"/></svg>
+                    <span>第二世界</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+                </button>
+                <ul class="sub-menu">
+                    <div>
+                        <li><a href="../world2/2.1.linwu.html">林雾</a></li>
+                        <li><a href="../world2/2.2.yemo.html">叶墨</a></li>
+                        <li><a href="../world2/2.3.yeli.html">叶黎</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <button onclick="toggleSubMenu(this)" class="dropdown-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320ZM360-280h160q33 0 56.5-23.5T600-360v-60q0-26-17-43t-43-17q26 0 43-17t17-43v-60q0-33-23.5-56.5T520-680H360v80h160v80h-80v80h80v80H360v80Z"/></svg>
+                    <span>第三世界</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+                </button>
+                <ul class="sub-menu">
+                    <div>
+                        <li><a href="../world3/3.1.wu.html">芜</a></li>
+                        <li><a href="../world3/3.2.xiruoli.html">希若黎</a></li>
+                        <li><a href="../world3/3.3.leienjiaer.html">雷恩嘉尔</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <button onclick="toggleSubMenu(this)" class="dropdown-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Zm40 200h80v-400h-80v160h-80v-160h-80v240h160v160Z"/></svg>
+                    <span>第四世界</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+                </button>
+                <ul class="sub-menu">
+                    <div>
+                        <li><a href="../world4/4.1.minglvyin.html">鸣律音</a></li>
+                        <li><a href="../world4/4.2.yuzeyan.html">许则言</a></li>
+                        <li><a href="../world4/4.3.si.html">巳</a></li>
+                    </div>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>郇煜</h2>
+            <p>
+                <h3>姓名</h3>
+                <p>郇煜（xun yu）</p>
+                <h3>性别</h3>
+                <h3>种族</h3>
+                <p>深海（章鱼人）</p>
+                <h3>外貌</h3>
+                <h4>1. 普通状态</h4>
+                <ul>
+                    <li>身高：1.5m</li>
+                    <li>章鱼头，口器和触手中间的部分均等分布着四支类似海绵体的特殊器官，在陆地上特殊器官可以保留水分用于硬化支撑身体，在水里会软化</li>
+                </ul>
+                <h4>2. 强化状态</h4>
+                <ul>
+                    <li>半章鱼半人</li>
+                    <li>光头</li>
+                    <li>章鱼皮肤</li>
+                    <li>正常的眼睛但鼻子位置只有两个气孔，嘴巴位置是圆形口器被许多手指粗的触手遮挡，没有耳朵</li>
+                    <li>手臂为四根触手，分布在身体和背部两侧。</li>
+                    <li>下体光滑，双足没有脚趾，足部更像梭子的截面（由两尖端连线的截面）</li>
+                </ul>
+                <h3>特征</h3>
+                <ul>
+                    <li>处于陆地时，可以通过变色或鳞片反光传达信息</li>
+                    <li>半个高维生物，一般情况下是个普通人，可以和空石共鸣（常态下不能靠近，会出现生理异常）</li>
+                    <li>在陆地上几乎没有听力，视力很弱（五十米内的视力），需要折光透镜。转化为不完整高维生物时，失去一切原本种族特征，除了与触手和皮肤有关的部分。</li>
+                    <li>在陆地上只能使用气孔呼吸，力量退化灵活度升高，视力转为正常人类水平。发动空石的力量会混淆来自不同维度的视野，所以对地形的掌控很差。</li>
+                </ul>
+                <h3>能力</h3>
+                <ul>
+                    <li>可以承受海底兩千米或更强的水压</li>
+                    <li>依靠触觉感受水的波动感知五十米内的所有生物，如果是流水的话可以掌握地形</li>
+                    <li>因为是软体生物，所以可以通过最小直径为五厘米的管道</li>
+                    <li>空气湿度达到80可以使用湿润的皮肤呼吸，除去会对皮肤造成伤害的和会被皮肤吸收的气体，不被空气污染影响，也不会被毒气影响</li>
+                    <li>单根触手的极限收缩力量大约是150kg，推力很弱，当有足够坚硬的地面支撑时可以达到60kg</li>
+                </ul>
+                <h3>技能</h3>
+                <h4>1. 爆种</h4>
+                <h5>1. 转化需求</h5>
+                <ul>
+                    <li>强行接触空石</li>
+                    <li>存在极限（与身边空石数量和产生共鸣后感知范围内的空石分布情况有关）</li>
+                    <li>达到极限后稳定（不会在因为空石的增加而继续变强）</li>
+                </ul>
+                <h5>2. 效果</h5>
+                <ul>
+                    <li>将一定区域分割于时空边界之外</li>
+                    <li>共鸣范围内的空石难以被其他人或工具利用</li>
+                    <li>智力加强</li>
+                </ul>
+                <h5>debuff</h5>
+                <ul>
+                    <li>会导致自身的躯体受损（于改变空间状态所产生的能量有关）（能量释放与区域内物质的质量有关）</li>
+                    <li>损伤达到一定程度会导致存在崩解</li>
+                    <li>本身已经处于超限度的受伤状态，共鸣会直接导致崩解</li>
+                    <li>受到同层次的攻击导致震荡破坏了共鸣状态会被迫退出强化模式（比如使用空石武器进行攻击造成伤害）</li>
+                </ul>
+                <h3>世界观</h3>
+                <h4>1. 高维生物</h4>
+                <p>深海族认知到的一种无视时间的生物</p>
+                <h4>2. 时间观</h4>
+                <p>没有因果关系，只存在可能性，产生的结果是对应行动所有可能性的穷举</p>
+                <h4>3. 消亡</h4>
+                <p>某次行动之后，所有的可能性中躯体都至少损伤20%时，高维生物的存在解体</p>
+                <h4>4. 空石</h4>
+                <p>高维生物的尸体碎片，无视岁月的消磨，特定条件下可以帮助划定”空间的边界“（例如链接空间中两点，令一定区域内的物质内能转化为粒子的动能等）</p>
+                </p>
+        </div>
+    </main>
+</body>
+</html>
