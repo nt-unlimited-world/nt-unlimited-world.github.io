@@ -93,6 +93,9 @@ body{
     > div{
         overflow: hidden;
     }
+    li svg, li span {
+        flex-grow: 1;
+    }
 }
 #sidebar .sub-menu.show{
     grid-template-rows: 1fr;
