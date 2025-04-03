@@ -67,6 +67,10 @@ body{
     align-items: center;
     gap: 1em;
 }
+#sidebar .dropdown-btn>a {
+    gap: 0;
+    padding: 0;
+}
 .dropdown-btn{
     width: 100%;
     text-align: left;
